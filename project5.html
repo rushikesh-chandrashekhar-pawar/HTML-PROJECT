@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <h3><label for="un">Enter username</label></h3>
+        <input type="text" name="un" required>
+
+        <h2><label for="nu">Enter contect number</label></h2>
+        <input type="contect" name="nu" required>
+        <h1><label for="tt">total member</label></h1>
+        <input type="total member" name="tt" list="members">
+        <datalist id="members">
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="etc">etc</option>
+        </datalist>
+
+        <h1>gender</h1>
+        <h3><label for="gender">Enter gender</label></h3>
+        <input type="radio" name="gender" value="male" checked>
+        <label for="gender">male</label>
+        <!-- <label for="gender">female</label> -->
+        <input type="radio" name="gender" value="female">
+        <label for="gender">female</label>
+
+        <h1>Select recepiz</h1>
+
+        <input type="checkbox" name="dal chaval">
+
+        <label for="dal chaval">dal chaval</label>
+
+        <input type="checkbox" name="rice">
+        <label for="rice">rice</label>
+
+        <input type="checkbox" name="chiken biryani" checked>
+        <label for="chiken biryani">chiken biryani</label>
+
+        <input type="checkbox" name="pizza">
+        <label for="pizaa">pizaa</label>
+        <input type="checkbox" name="chiken pizaa">
+        <label for="chiken pizaa">chiken pizaa</label>
+
+        <h3><label for="state">Select Area</label></h3>
+        <select name="state">
+            <option value="mh11" selected>Satara</option>
+            <option value="mh12">Pune</option>
+            <option value="mh19">Jalgoan</option>
+            <option value="mh16">Solapur</option>
+            <option value="mh14" disabled>Mumbai</option>
+        </select>
+        <hr>
+        <input type="submit" value="register">
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.outer {
+    width: 900px;
+    height: 500px;
+    border-color: red;
+}
+
+.outer>span {
+    background-color: red;
+    color: white;
+}
+
+.inner {
+    width: 600px;
+    height: 350px;
+    border-color: blue;
+}
+
+.inner>span {
+    background-color: blue;
+    color: white;
+}
+
+.innermost {
+    width: 300px;
+    height: 200px;
+    border-color: green;
+}
+
+.innermost>span {
+    background-color: green;
+    color: white;
+}
+
+span {
+    font-size: 30px;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* every element has position static , the structure of Html decides the position of the element 
+
+position:releative ->
+1) the element can now move using a combination of any of these 4 propertie which have just bwen unlocked left,right,top,bottem
+
+2) It will move relative to its defult position 
+
+3) the original space of the element still belongs to the element even if it has moved
+
+
+position:absolute
+1) the element can now move using a combination of any of these 4 properties which have just been unlocked left, right,top,bottem
+
+2) It will move releative to its neares ancestor that has a position property set to anything but static or the html element ittself
+
+3) the original space of the element is now empty, so any other element in the flow amy occupy it*/
